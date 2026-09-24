@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Login</h2>
+    <form class="loginForm">
+
+      <!-- Email Field -->
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="text" class ="email" placeholder="example@mail.com">
+        <small  class="EmailError"></small>
+      </div>
+
+      <!-- Password Field -->
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" class ="password" placeholder="Min 6 characters">
+        <small  class="PasswordError"></small>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+    <div class="resultmess"></div>
+  </div>
+
+<script src="Form.js"></script>
+  
+</body>
+</html>
