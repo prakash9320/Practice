@@ -17,7 +17,7 @@ function pencil(tata, relience, adani, color) {
 let pencil1 = new pencil("Tata Motors", "Jio", "Port" , "Orange");
 let pencil2 = new pencil("Tata Salt", "Jio Fiber", "Adani Construction " , "skyblue");
 
-Class Example
+// Class Example
  
 class CreatePencil{
   constructor(Name , company , price , color){
